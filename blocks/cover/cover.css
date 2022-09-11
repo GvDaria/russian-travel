@@ -1,7 +1,6 @@
-.cover {
+  .cover {
     max-width: 1184px;
     min-height: 200px;
-    padding: 0;
     margin: 92px auto;
   }
 

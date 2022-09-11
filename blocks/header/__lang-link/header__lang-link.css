@@ -1,20 +1,19 @@
 .header__lang-link {
-    color: white;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    text-decoration: none;
-    margin-left: 18px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  color: white;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+  transition: .2s linear;
+}
+
+@media (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
   }
-  
-  .header__lang-link:hover {
-    opacity: 0.8;
-    transition: .2s linear;
-  }
-  
-  @media (max-width: 767px) {
-    .header__lang-link {
-      font-size: 18px;
-      line-height: 20px;
-    }
-  }
+}

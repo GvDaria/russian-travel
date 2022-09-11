@@ -1,12 +1,12 @@
- .header {
-   min-width: calc(100% - 96px);
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   box-sizing: content-box;
-   padding-top: 28px;
-   margin: 0 48px 56px 48px;
+.header {
+  max-width: calc(100% - 96px);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: content-box;
+  padding-top: 28px;
+  margin: 0 48px 56px 48px;
 }
 
 @media (min-width: 1280px) {
