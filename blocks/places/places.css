@@ -1,7 +1,7 @@
 .places {
   padding-top: 12px;
   max-width: 984px;
-  margin: 0 auto;
+  margin: 0 calc((100vw - 1024px)/(1280 - 1024) * (148 - 48) + 48px) 0;
 }
 
 @media(min-width: 1281px) {

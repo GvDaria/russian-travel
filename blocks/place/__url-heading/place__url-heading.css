@@ -3,9 +3,10 @@
   font-weight: normal;
   line-height: 12px;
   letter-spacing: 2px;
-  text-transform: none;
+  text-decoration: none;
   padding: 0;
-  margin:  0 12px 0;
+  margin: 0 0 12px 0;
+  color: rgba(170, 170, 170, 1);
 }
 
 @media (max-width: 450px) {
