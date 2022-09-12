@@ -10,10 +10,9 @@
   z-index: 15;
 }
 
-
 @media (max-width: 506px) {
   .cover__subtitle {
-    width: 90%;
+    max-width: 90%;
     margin-top: 16px;
     line-height: 16px;
     font-size: 14px;

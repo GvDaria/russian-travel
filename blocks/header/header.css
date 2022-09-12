@@ -13,7 +13,13 @@
   .header {
     margin-left: auto;
     margin-right: auto;
-    width: 1184px;
+    max-width: 1184px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    margin-bottom: 48px;
   }
 }
 

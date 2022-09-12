@@ -8,7 +8,7 @@
 
 @media (min-width: 1280px) {
   .photo-grid {
-    width: 1184px;
+    max-width: 1184px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -37,5 +37,11 @@
     grid-template-columns: 1fr;
     grid-gap: 12px;
     margin: 0 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .photo-grid {
+    margin-top: 64px;
   }
 }
