@@ -1,7 +1,6 @@
 .cover__overlay {
   text-decoration: none;
   color: #ffffff;
-  display: flex;
   background-image: url(../../../images/__background.png);
   background-size: cover;
   background-position: center;
